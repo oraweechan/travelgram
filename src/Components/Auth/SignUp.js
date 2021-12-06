@@ -152,7 +152,7 @@ function SignUp() {
                   variant="contained"
                   size="medium"
                 >
-                  <Link style={linkStyle} to="/login">
+                  <Link style={linkStyle} to="/">
                     Sign In
                   </Link>
                 </Button>

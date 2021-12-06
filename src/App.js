@@ -4,7 +4,7 @@ import CreatePost from "./Components/CreatePost/CreatePost";
 import Feed from "./Components/Feed/Feed";
 import Footer from "./Components/Footer/Footer";
 import Nav from "./Components/Nav/Nav";
-import Explore from "./Components/Explore/Explore"
+import Explore from "./Components/Explore/Explore";
 import TeamPage from "./Components/TeamPage/TeamPage";
 import UserContext from "./context/userContext";
 import { Route, Routes } from "react-router";
@@ -17,7 +17,7 @@ function App() {
     user: undefined,
   });
 
-  // const allUsersData = 
+  // const allUsersData =
 
   const [feedData, setFeedData] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
@@ -53,10 +53,10 @@ function App() {
   }, []);
 
   const makeApiCall = () => {
-    fetch("http://localhost:8080/posts")
+    fetch("https://travelgram-app-heroku.herokuapp.com/users/daniel123")
       .then((res) => res.json())
       .then((data) => {
-        setFeedData(data.post);
+        setFeedData(data.user.posts);
       });
   };
 
@@ -95,19 +95,19 @@ function App() {
         />
         <Routes>
           <Route exact path="/Signup" element={<SignUp />} />
+          <Route exact path="/feed" element={<Feed />} />
+          <Route exact path="/createPost" element={<CreatePost />} />
+          <Route exact path="/" element={<Login />} />
+          <Route exact path="/teamPage" element={<TeamPage />} />
           <Route
             exact
-            path="/feed"
+            path="/explore"
             element={
-              <Feed
+              <Explore
                 feedData={searchTerm.length < 1 ? feedData : searchResults}
               />
             }
           />
-          <Route exact path="/createPost" element={<CreatePost />} />
-          <Route exact path="/" element={<Login />} />
-          <Route exact path="/teamPage" element={<TeamPage />} />
-          <Route exact path="/explore" element={<Explore />} />
         </Routes>
         {/* <Explore /> */}
         <Footer />

@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Our team will be creating a fullstack web application that will allow people to share their travel experience to a community of other travellers using this application.
 
-## Available Scripts
+View Screen Shot of our app below:
+(https://user-images.githubusercontent.com/90231932/144096351-cc57a32a-1999-4556-a9a5-6a8e8fe94e2b.png)
 
-In the project directory, you can run:
+## Project Schedule
 
-### `npm start`
+|  Day | Deliverable | Status
+|---|---| ---|
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 2-4| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 5-6| MVP & Bug Fixes | Complete
+|Day 6-7| Final Touches | Complete
+|Day 8| Present | Complete
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Project Description
 
-### `npm test`
+Our team will be creating a fullstack mobile-first application that will allow people to share their travel experience to a community of other travellers using this application. The users will be able to browse through other user's travel experience like on a feed, as well as post their own. The user can add multiple factors about their experience such as location, images, cost of travel, places to visit, etc.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Wireframes
 
-### `npm run build`
+- [Mobile](https://res.cloudinary.com/dxqwpud0l/image/upload/v1637281910/Screen_Shot_2021-11-18_at_10.06.10_AM_hwntgf.png)
+- [Desktop]()
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Time/Priority Matrix 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Link]()
 
-### `npm run eject`
+#### MVP
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Content, Layout, Structure
+- WireFraming
+- Create Post Page (Picture, Destination, Caption)
+- Feed Page (where users can browse through other users' posts)
+- Meet Our Team Page
+- CSS
+- Responsive
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### PostMVP 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- User Authentication/Log In Page
+- Following other users
+- Direct Messaging System
+- Dark Mode Toggle
+- Chat Bot
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Functional Components
 
-## Learn More
+#### MVP
+| Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: | 
+| WireFraming | H | 2hr | 1 hr |
+| Content, Layout, Structure | H | 4hr | 6 hr |  
+| Create Post Page (Picture, Destination, Caption) | H | 4hr | 3 hr|
+| Feed Page (Read posts from other users) | H | 4hr | 5 hr|
+| Responsive Design | H | 3hr| 4 hr |  
+| Meet our Team Page | M | 3hr| 3 hr |
+| CSS | H | 4hrs| 4 hr | 
+| Total | H | 28 hrs| 33 hrs |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### PostMVP
+| Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: | 
+| User Authentication/Log In Page | H | 4hr | 7 hr|
+| Direct Messaging System | M | 3hr | - hr | - hr |
+| Chat Bot | L | 3hr | - hr | - hr |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Total | H | 11 hrs| 7 hrs |
 
-### Code Splitting
+## Additional Libraries
+Font Awesome Icons
+MUI Library
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Issues and Resolutions
+Because we incorporated a User Auth, we had some trouble grabbing the posts of each user to display on the Explore page. We found a workaround to make an API Call for one specific user that makes posts with different Usernames. However, when given more time, we definitely want to update the functionality for this one.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# travel-frontend

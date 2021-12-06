@@ -106,14 +106,14 @@ function Login() {
                     >
                       Sign In
                     </Button>
-                    <Button
+                    {/* <Button
                       style={{ backgroundColor: "#1A76D2" }}
                       variant="contained"
                       size="large"
                       onClick={signInWithGoogle}
                     >
                       Sign in with Google
-                    </Button>
+                    </Button> */}
                   </Form>
                 </Col>
               </Row>

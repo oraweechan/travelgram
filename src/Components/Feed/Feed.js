@@ -93,8 +93,11 @@ function Feed(props) {
         <h1 style = {{textAlign:"center"}}>Welcome {userData.user.name}</h1>
       ) : (
         <>
-          <h2>Uh oh.  Looks like you are not logged in. Login to view your feed.</h2>
-          <Link to="/">Login</Link>
+          <div className="invitationToLogin">
+            <h2>Error</h2>
+            <div>Uh oh!  Looks like you are not logged in <i class="far fa-frown"></i>. <Link to="/">Login</Link> to view your feed, or check out our <Link to="/explore">Explore</Link> Page!</div>
+          </div>
+          
         </>
       )}
       {/* {feedData ? {posts} : "" } */}
