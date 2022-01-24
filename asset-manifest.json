@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/travelgram/static/css/main.23add293.chunk.css",
+    "main.js": "/travelgram/static/js/main.2f19f330.chunk.js",
+    "main.js.map": "/travelgram/static/js/main.2f19f330.chunk.js.map",
+    "runtime-main.js": "/travelgram/static/js/runtime-main.2ef1c839.js",
+    "runtime-main.js.map": "/travelgram/static/js/runtime-main.2ef1c839.js.map",
+    "static/css/2.a75f5a2c.chunk.css": "/travelgram/static/css/2.a75f5a2c.chunk.css",
+    "static/js/2.12e0fc48.chunk.js": "/travelgram/static/js/2.12e0fc48.chunk.js",
+    "static/js/2.12e0fc48.chunk.js.map": "/travelgram/static/js/2.12e0fc48.chunk.js.map",
+    "index.html": "/travelgram/index.html",
+    "static/css/2.a75f5a2c.chunk.css.map": "/travelgram/static/css/2.a75f5a2c.chunk.css.map",
+    "static/css/main.23add293.chunk.css.map": "/travelgram/static/css/main.23add293.chunk.css.map",
+    "static/js/2.12e0fc48.chunk.js.LICENSE.txt": "/travelgram/static/js/2.12e0fc48.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ef1c839.js",
+    "static/css/2.a75f5a2c.chunk.css",
+    "static/js/2.12e0fc48.chunk.js",
+    "static/css/main.23add293.chunk.css",
+    "static/js/main.2f19f330.chunk.js"
+  ]
+}
