@@ -94,7 +94,7 @@ function App() {
           searchKeyword={searchHandler}
         />
         <Routes>
-          <Route exact path="/Signup" element={<SignUp />} />
+          <Route exact path="/signup" element={<SignUp />} />
           <Route exact path="/feed" element={<Feed />} />
           <Route exact path="/createPost" element={<CreatePost />} />
           <Route exact path="/" element={<Login />} />
